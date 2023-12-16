@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/sidePicR"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/receiverTextBlock"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="1.5dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="1.5dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toRightOf="@+id/sidePicR"
+        android:background="@drawable/receiver_chat_block"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="Receiver message is here"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
